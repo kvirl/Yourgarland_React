@@ -1,0 +1,12 @@
+# Включаем mod_rewrite
+RewriteEngine On
+
+# Если файл или папка существуют — используем их
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Всё остальное перенаправляем на index.html (для React Router)
+RewriteRule ^ index.html [L]
+
+# Кастомная страница 404
+ErrorDocument 404 /404.php

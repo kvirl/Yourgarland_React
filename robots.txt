@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /404/
+Disallow: /confidentiality.html
+Disallow: /admin/
+Disallow: /admin.php
+Disallow: /admin-*
+
+Sitemap: https://yourgarland.ru/sitemap.xml
