@@ -11,6 +11,8 @@ body {
 	background-color: #dcdcdc;
 	height: 100%;
 }
+/* Прижимаем футер к низу */
+
 .lightrope {
 	text-align: center;
 	white-space: nowrap;
@@ -854,6 +856,16 @@ ul {
 .footer {
 	background-color: #24262b;
 	padding: 70px 0;
+	flex-shrink: 0;
+}
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.main_contact {
+	flex: 1 0 auto;
 }
 
 .footer-col {
