@@ -36,7 +36,7 @@ try {
     $mail->Host       = 'smtp.yandex.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'ifnormation@yandex.ru';
-    $mail->Password   = 'rwtxllhpweoicgvh';
+    $mail->Password   = '';
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
 
